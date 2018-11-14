@@ -1,0 +1,17 @@
+cflags:
+{
+  -std=c99
+}
+
+requires:
+{
+  api:
+  {
+    pir = le_gpio.api
+  }
+}
+
+sources:
+{
+  pir.c
+}
